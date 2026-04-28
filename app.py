@@ -9,6 +9,9 @@ def home():
 @app.route('/about')
 def about():
     return "About page"
+@app.route('/contact')
+def contact():
+    return "Contact page added in Version 2"
 
 if __name__ == "__main__":
     app.run(debug=True)
